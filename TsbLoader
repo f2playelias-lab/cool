@@ -1043,12 +1043,12 @@ local function ConnectEvents()
     
     UI.Buttons.GetKey.MouseButton1Click:Connect(function()
         ShowStatus("Opening key website...", false, false)
-        CopyToClipboard("https://your-key-website.com", "Key in Discord!")
+        CopyToClipboard("https://discord.gg/Jw4szxjcbJ", "Discord invite copied to clipboard!")
     end)
     
     UI.Buttons.Discord.MouseButton1Click:Connect(function()
         ShowStatus("Opening Discord invite...", false, false)
-        CopyToClipboard("https://discord.gg/your-invite", "Discord link copied to clipboard!")
+        CopyToClipboard("https://discord.gg/Jw4szxjcbJ", "Discord invite copied to clipboard!")
     end)
 end
 
