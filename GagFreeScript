@@ -1044,12 +1044,12 @@ loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/d8e84227
     
     UI.Buttons.GetKey.MouseButton1Click:Connect(function()
         ShowStatus("Opening key website...", false, false)
-        CopyToClipboard("https://discord.gg/Jw4szxjcbJ", "Discord invite copied to clipboard!")
+        CopyToClipboard("https://discord.gg/HaR56qQ4k", "Discord invite copied to clipboard!")
     end)
     
     UI.Buttons.Discord.MouseButton1Click:Connect(function()
         ShowStatus("Opening Discord invite...", false, false)
-        CopyToClipboard("https://discord.gg/Jw4szxjcbJ", "Discord invite copied to clipboard!")
+        CopyToClipboard("https://discord.gg/HaR56qQ4k", "Discord invite copied to clipboard!")
     end)
 end
 
